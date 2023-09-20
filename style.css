@@ -7,6 +7,12 @@ body {
     border: 5px solid #6790c0;
     padding: 5px;
 }
+.centrer-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
 
 div{
     border-radius: 660px ;
@@ -14,5 +20,64 @@ div{
     border-bottom: 10px solid #e0e1dd;
     margin-left: 20PX;
     margin-right: 20PX;
+    padding: 5px;
+   
+}
+h1{
+    text-align: center;
+    background-color: #7b9fc9;
+    color: aliceblue;
+    border-radius:30px;
+    margin-left:200px ;
+    margin-right:200px ;
+    font-family: 'Exo 2', sans-serif;
+}
+p,h2,b{
+    text-align: center;
+    color: #203e5e;
+    font-family: 'Exo 2', sans-serif;
+}
+u{
+    color: #623c8f;
+}
+table {
+    height: 50vh;
+   width: 100%;
+}
+section{
+    margin-left: 60PX;
+    margin-right: 60PX;
+}
+td{
+    text-align: center;
+}
+thead th,td{
+    border-bottom: 1px solid #fff;
+    border-top: 1px solid #fff;
+    border-right:1px solid #fff ;
+    border-left: 1px solid #fff;
+    font-family: 'Exo 2', sans-serif;
+    border-radius: 10PX;
+}
+th{
+    background-color: #6053d1;
+}
+td{
+    background-color: #796edd;
+    font-weight:600 ;
+    color: #1d0e55;
+}
+a h2{
+    color: rgb(41, 93, 170);
+}
+
+nav:hover{
+    background-color: #6215a1;
+    margin-left: 550PX;
+    margin-right: 550PX;
+    border-radius: 10px;
+
+}
+header nav a{
    
 }
