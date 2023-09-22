@@ -61,7 +61,8 @@ thead th,td{
     border-right:2px solid #fff ;
     border-left: 1px solid #fff;
     font-family: 'Exo 2', sans-serif;
-    border-radius: 10PX;
+    border-radius: 10px;
+    height: 100px;
 }
 th{
     background-color: #6053d1;
