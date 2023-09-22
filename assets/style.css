@@ -1,6 +1,9 @@
 body {
     background: #a9caf5;
 }
+a{
+    text-decoration: none;
+}
 
 .cercle{
     border-radius: 550px;
@@ -14,7 +17,7 @@ body {
     height: 50vh;
 }
 
-div{
+#ligne {
     border-radius: 660px ;
     border-top: 10px solid #e0e1dd;
     border-bottom: 10px solid #e0e1dd;
@@ -31,6 +34,7 @@ h1{
     margin-left:200px ;
     margin-right:200px ;
     font-family: 'Exo 2', sans-serif;
+    padding: 10px 0 10px 0;
 }
 p,h2,b{
     text-align: center;
@@ -53,8 +57,8 @@ td{
 }
 thead th,td{
     border-bottom: 1px solid #fff;
-    border-top: 1px solid #fff;
-    border-right:1px solid #fff ;
+    border-top: 2px solid #fff;
+    border-right:2px solid #fff ;
     border-left: 1px solid #fff;
     font-family: 'Exo 2', sans-serif;
     border-radius: 10PX;
@@ -69,15 +73,14 @@ td{
 }
 a h2{
     color: rgb(41, 93, 170);
+   
 }
 
 nav:hover{
-    background-color: #6215a1;
+    background-color: #e98ce9;
     margin-left: 550PX;
     margin-right: 550PX;
     border-radius: 10px;
+}
 
-}
-header nav a{
-   
-}
+
