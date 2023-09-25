@@ -27,12 +27,13 @@ a{
    
 }
 h1{
-    text-align: center;
+    display: flex;
+    justify-content: center;
     background-color: #7b9fc9;
     color: aliceblue;
     border-radius:30px;
-    margin-left:200px ;
-    margin-right:200px ;
+    margin-left:20%;
+    margin-right:20% ;
     font-family: 'Exo 2', sans-serif;
     padding: 10px 0 10px 0;
 }
